@@ -9,7 +9,8 @@
    height: auto;
 }
 .center{
-  margin-top:40px;
+  margin-top:20px;
+  color: black;
 }
 /* here is the styling of logo*/
 .small-logo{
@@ -25,7 +26,7 @@
    align-items: center;
    justify-content: space-around;
    background-color: #260075;
-   height: 15vh;
+   height: 12vh;
 }
 .nav ul{
     display: flex;
@@ -71,7 +72,7 @@
        position: absolute;
        right: 0px;
        height: 85vh;
-       top:15vh;
+       top:12vh;
        background-color:#260075 ;
        display: flex;
        flex-direction: column;
@@ -85,7 +86,11 @@
    .ncc{
       display: none;
    }
-  
+   .nit img{
+      height: 100px;
+      width: 100px;
+   }
+
 }
    .nav-active{
        transform: translateX(0);
@@ -106,9 +111,9 @@
 /* styling of head section */
 .ncc img{
    
-    width: 150px;
-    height: 140px;
-    background-size: cover;
+    width: 130px;
+    height: 120px;
+   
     margin-top: 10px;
   
 }
@@ -121,11 +126,12 @@
 }
 .nit img{
    
-   width: 150px;
-   height: 150px;
-   background-size: cover;
+   width: 130px;
+   height: 130px;
+ 
     
 }
+
 /* HERE STARTS THE STYLING OF THE BODY */
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
