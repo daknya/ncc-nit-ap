@@ -104,23 +104,25 @@
      }
     
 /* styling of head section */
-.ncc{
-    background-image: url(./im-removebg-preview\ \(1\).png);
-    width: 220px;
-    height: 170px;
+.ncc img{
+   
+    width: 150px;
+    height: 140px;
     background-size: cover;
-    padding-bottom:60px ;
+    margin-top: 10px;
+  
 }
 .head{
    display: flex;
    width: 100%;
+   height: auto;
    justify-content:center;
 
 }
-.nit{
-   background-image: url(./nitap-removebg-preview.png);
-   width: 180px;
-   height: 180px;
+.nit img{
+   
+   width: 150px;
+   height: 150px;
    background-size: cover;
     
 }
