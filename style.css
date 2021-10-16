@@ -86,11 +86,19 @@
    .ncc{
       display: none;
    }
+  
+
+}
+@media screen and (max-width:500px) {
    .nit img{
       height: 100px;
       width: 100px;
+     
    }
-
+   .center{
+       font-size: smaller;
+   }
+   
 }
    .nav-active{
        transform: translateX(0);
