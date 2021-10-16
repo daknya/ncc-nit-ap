@@ -61,10 +61,10 @@
 @media screen and (max-width: 760px){
    .burger{
      display: block;
-     cursor: pointer;
+    
    }
    body{
-       overflow: hidden;
+       overflow-x: hidden;
       
    }
    .link{
@@ -72,14 +72,14 @@
        right: 0px;
        height: 85vh;
        top:15vh;
-     background-color:#260075 ;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: 50%;
-     transform: translateX(100%);
-     transition: 0.5s ease-in;
-     z-index: 1;
+       background-color:#260075 ;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+       z-index: 1;
    }
 }
    .nav-active{
@@ -212,7 +212,7 @@ img {vertical-align: middle;}
 
 /*  for smaller screens, decrease size */
 @media only screen and (max-width: 300px) {
- .prev, .next,.text {font-size: 11px}
+ .prev, .next {font-size: 11px}
 }
 
 img {
