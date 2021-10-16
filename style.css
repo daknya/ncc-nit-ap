@@ -82,9 +82,10 @@
        z-index: 1;
        padding: 30px;
    }
-   .nit{
+   .ncc{
       display: none;
    }
+  
 }
    .nav-active{
        transform: translateX(0);
@@ -108,6 +109,7 @@
     width: 220px;
     height: 170px;
     background-size: cover;
+    padding-bottom:60px ;
 }
 .head{
    display: flex;
@@ -223,13 +225,7 @@ img {
    vertical-align: middle;
 }
 
-.message-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 
-}
 .box{
     width: 150px;
     color: white;
@@ -244,24 +240,64 @@ img {
     background-color:#3787BA; width: 100%;
 }
 
-.boxp img{
-     width: 200px;
-     border-radius: 50%; text-align: center;
-}
+
 
 .news{
    display: flex;
    justify-content: flex-start;
    height: 40px;
 }
-.boxp{
-   width: 30%;
-   margin: 30px ;
-   
-   box-shadow: 10px 10px 10px rgb(39, 38, 38);
-border-radius: 5px;
-padding: 10px;
+
+.message-area{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   background-color: #3787BA;
+
 }
+
+
+
+.teacher{
+  width: 400px;
+  margin: 60px ;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgb(39, 38, 38);
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+}
+.teacher img{
+  width: 110px;
+height: 110px;
+border-radius: 50%;
+padding: 10px;
+
+}
+.teacher .image-area{
+width: 110px;
+height: 110px;
+border-radius: 50%; text-align: center;
+position: absolute;
+top: -50px;
+left: 50%;
+transform: translateX(-56%);
+background-color: white;
+}
+
+.teacher p{
+ margin-top: 50px;
+
+
+}
+
 
 .learn{
      height: 300px;
