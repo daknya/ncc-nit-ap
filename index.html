@@ -16,11 +16,10 @@
 <nav class="nav">
   <div class="small-logo" id="smllogo"></div>
   <ul class="link">
-    <li><a href=""> home </a> </li>
-    <li><a href=""> learn</a> </li>
-    <li><a href=""> news </a></li>
-    <li><a href=""> gallery</a></li>
-
+    <li><button class="tablink" onclick="openPage('Home', this, '#3787BA')"  id="defaultOpen"> home </button> </li>
+    <li><button class="tablink" onclick="openPage('Learn', this, '#3787BA')"> learn</button> </li>
+    <li><button class="tablink" onclick="openPage('News', this, '#3787BA')"> news </button></li>
+    <li><button class="tablink" onclick="openPage('Gallery', this, '#3787BA')" > gallery</button</li>
   </ul>
   <a class="burger"> 
     <div class="line1"></div>
@@ -30,7 +29,7 @@
 </nav>
 
 <!-- this the header this will contain logo and name--> 
-
+<section id="Home" class="tabcontent">
   <header class="head ">
 
     <div class="nit"> <img src="./nitap-removebg-preview.png" alt=""></div>
@@ -121,6 +120,20 @@
 
     <div class="learn temp"><h1>you can learn everthing about ncc here</h1></div>
   </section>
+</section>
+<section id="News" class="tabcontent">
+  <h1> no content yet</h1>
+
+
+</section>
+
+<section id="Learn" class="tabcontent">
+  <h1> no content yet</h1>
+</section>
+
+<section id="Gallery" class="tabcontent">
+  <h1> no content yet</h1>
+</section>
 
 <!-- here is the footer--> 
   <footer class="foot temp"> this is footer</footer>
