@@ -108,13 +108,16 @@
       width: 100px;
      
    }
+  body{
+     overflow-x: hidden;
+  }
    .center{
        font-size: smaller;
    }
    
 }
    .nav-active{
-       transform: translateX(0);
+    transform: translateX(0);
    }
    .toggle .line1{
        transform: rotate(45deg) translate(-5px,6px);
@@ -382,7 +385,7 @@ background-color: white;
      max-width: 100%;
    }
  }
- 
+
  /* below this is for footer*/
 
 .foot{
