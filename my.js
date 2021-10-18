@@ -1,3 +1,5 @@
+
+// js for slideshow 
 var slideIndex = 1;
 showSlides(slideIndex);
 
