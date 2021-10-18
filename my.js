@@ -72,3 +72,15 @@ const navSlide = () => {
   
   
   document.getElementById("defaultOpen").click();
+
+  // script for image gallery 
+  var fullImgBox =document.getElementById("fullImgBox");
+  var fullImg =document.getElementById("fullImg");
+
+  function openFullImg(img){
+       fullImgBox.style.display="flex";
+       fullImg.src = img;
+  }
+  function closeFullImg(){
+      fullImgBox.style.display="none";
+  }
