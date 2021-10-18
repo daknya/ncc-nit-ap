@@ -44,12 +44,14 @@
     width: 100%;
     font-size: larger;
     border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
 }
 
-.nav li:hover{
+/*.nav li:hover{
  border-radius: 3px;
   background-color: #3787BA;
-}
+}*/
 .nav button:hover{
    color: #6b4c4c;
     background-color: #3787BA;
@@ -368,8 +370,39 @@ background-color: white;
     margin-top: 10px;
     vertical-align: center;
     width: 100%;
+   cursor: pointer;
+}
+.column img:hover{
+   transform: scale(0.8);
+   box-shadow: 0px 32px 70px;
+   transition: 0.4s ease-out;
 }
 
+.full-img{
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(0, 0,0, 0.8);
+   position:fixed; top: 0;
+   left: 0;
+   display: none;
+   align-items: center;
+   z-index: 100;
+   justify-content: center;
+}
+.full-img img{
+   width: 90%;
+
+}
+.full-img span{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  text-transform: lowercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* for responsive ness*/
 @media screen and (max-width:800px) {
    .column{
