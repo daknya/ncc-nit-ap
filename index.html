@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>NCC Nitap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,18 +15,20 @@
 <!-- this the navigation bar--> 
 
 <nav class="nav">
-  <div class="small-logo" id="smllogo"></div>
+  <div class="small-logo" id="smllogo"> <img src="./im-removebg-preview (1).png" alt="ncc-logo"></div>
   <ul class="link">
-    <li><button class="tablink" onclick="openPage('Home', this, '#3787BA')"  id="defaultOpen"> home </button> </li>
-    <li><button class="tablink" onclick="openPage('Learn', this, '#3787BA')"> learn</button> </li>
-    <li><button class="tablink" onclick="openPage('News', this, '#3787BA')"> news </button></li>
-    <li><button class="tablink" onclick="openPage('Gallery', this, '#3787BA')" > gallery</button</li>
+    <li><a class="tablink active" href="index.html"> home </a> </li>
+    <li><a class="tablink" href="learn.html" > learn</a> </li>
+    <li><a class="tablink" href="gallery.html"> gallery</a</li>
+    <li><a class="tablink" href="news.html" > news </a></li>
+  
   </ul>
-  <a class="burger"> 
-    <div class="line1"></div>
+ <div class="burger"> 
+    <div class="line1"></div> 
     <div class="line2"></div>
     <div class="line3"></div>
-  </a>
+   
+ </div>
 </nav>
 
 <!-- this the header this will contain logo and name--> 
@@ -36,9 +39,10 @@
 
     <div class="center"> 
        <div>
-         <p>राष्ट्रीय कैडेट कोर</p><h1>National Cadet Corps</h1></div>
-       <HR></HR>
-       <DIV><h1>NIT Arunachal Pradesh</h1></DIV>
+         <p>राष्ट्रीय कैडेट कोर</p>
+         <h1 class="headncc">National Cadet Corps</h1></div>
+      
+       <DIV><h1 class="headncc">NIT Arunachal Pradesh</h1></DIV>
     </div>
     <div class="ncc"><img src="./im-removebg-preview (1).png" alt=""></div>
   </header>
@@ -47,129 +51,103 @@
   <section class="body">
 
     <div class="news"> 
-      <div class="box">whats new</div>
-  
-      <div class="newss"> today is the day </div></div>
-
-      <!-- coreusol is here-->
-      <div class="container">
-        <div class="slideshow-container">
-
-          <div class="mySlides fade">
-        
-            <img src="./men-g01bba6c28_640.jpg" style="width:100%">
-           
-          </div>
-          
-          <div class="mySlides fade">
-           
-            <img src="./police-ga5598d913_640.jpg" style="width:100%">
-         
-          </div>
-          
-          <div class="mySlides fade">
-           
-            <img src="./men-g01bba6c28_640.jpg" style="width:100%">
-            
-          </div>
-          
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          
-          </div>
-          <br>
-          
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-          </div>
-          
-
-  <div class="message-area">
-    <div class="teacher">
-  <div class="image-area"> <img src="./blank-profile-picture-g65bf49a3f_640.png" alt=""></div>
-  <p><i>founder of founder's founder</i></p>
-  <span class="name"><h3> greatgarnddpa of john cena</h3></span>
-   <p class="discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore perferendis laboriosam mollitia explicabo in nam similique recusandae quos odio voluptates? <a href="#">readmore</a></p> 
-
-
+     <div class="box"><a href="./news.html" style="text-decoration: none; color: white;">whats new  </a></div> 
  
-  </div>
+      <div class="newss"> <marquee behavior="slide" direction="left" loof="infinite"> <p style="padding-top:10px ;"><a href="./news.html">today is the day</a>  </p> </marquee></div></div>
+ <div id="content">
+    
+
+        <div id="slideshow">
+          <div class="slide-wrapper">
+           <div class="slides">
+             <img  class="images" src="./ncc images/AzadHindFauj - Copy.png" alt="">
+           </div>
+
+           <div class="slides">
+            <img  class="images" src="./ncc images/Tribute to Hero's (1).png" alt="">
+          </div>
+
+          <div class="slides">
+            <img  class="images" src="./ncc images/Tribute to Hero's (2).png" alt="">
+          </div>
+
+          <div class="slides">
+            <img  class="images" src="./ncc images/img4.jpg" alt="">
+          </div>
+
+
+          </div>
+
+        </div>
+
+  <!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!-- message area
+ /-->
  
-    <div class="teacher">
-  <div class="image-area"> <img src="./blank-profile-picture-g65bf49a3f_640.png" alt=""></div>
- <p><i>founder'sfounder</i></p>
-  <span class="name"><h3> pa of john cena</h3></span>
-   <p class="discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore perferendis laboriosam mollitia explicabo in nam similique recusandae quos odio voluptates? <a href="#">readmore</a> </p> 
 
-
-  
- 
-  </div>
- 
-    <div class="teacher">
-  <div class="image-area"> <img src="./blank-profile-picture-g65bf49a3f_640.png" alt=""></div>
-   <p><i>ceo and founder</i></p>
-  <span class="name"><h3>john cena</h3></span>
-   <p class="discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore perferendis laboriosam mollitia explicabo in nam similique recusandae quos odio voluptates? <a href="#">readmore</a></p> 
-
-  
-  </div>
-  </div>
-
-    <div class="learn temp"><h1>you can learn everthing about ncc here</h1></div>
+    
   </section>
 </section>
-<section id="News" class="tabcontent">
-  <h1> no content yet</h1>
-
-
-</section>
-
-<section id="Learn" class="tabcontent">
-  <h1> no content yet</h1>
-</section>
-
-<section id="Gallery" class="tabcontent">
-
-  <div class="galhead"> <h1>PHOTOS OF NCC NIT AP</h1>
-  <hr></div>
-
-  <div class="full-img" id="fullImgBox">
-    <img src=""  id="fullImg" alt=" empty">
-    <span onclick="closeFullImg()" >X</span>
-</div>
-  <div class="row">
-    <div class="column">
-      <img src="./img1.jpg" onclick="openFullImg(this.src)">
-      <img src="./img2.jpg" onclick="openFullImg(this.src)">
-      <img src="./img3.jpg" onclick="openFullImg(this.src)">
-      <img src="./img4.jpg"onclick="openFullImg(this.src)">
-      
-      
-    </div>
-    <div class="column">
-      <img src="./img5.jpg" onclick="openFullImg(this.src)">
-      <img src="./img6.jpg" onclick="openFullImg(this.src)">
-      <img src="./img7.jpg"onclick="openFullImg(this.src)">
-      <img src="./img8.jpg" onclick="openFullImg(this.src)">
+<!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!-- ///////////////////////////////-->
+<!--here starts learn section-->
+ <section  id="learn"> 
    
-    </div>
-    <div class="column">
-      <img src="./img9.jpg" onclick="openFullImg(this.src)">
-      <img src="./img10.jpg" onclick="openFullImg(this.src)">
-      <img src="./img11.jpg" onclick="openFullImg(this.src)">
-      <img src="./img5.jpg" onclick="openFullImg(this.src)">
-      
-    </div>
-  
+
+  <div class="learn "><h1> <b>AIM OF NCC</b> 
+  </h1>
+  <p><b>The ‘Aims’ of the NCC laid out in 1988 have stood the test of time and continue to meet the requirements expected of it in the current socio–economic scenario of the country. The NCC aims at developing character, comradeship, discipline, a secular outlook, the spirit of adventure and ideals of selfless service amongst young citizens. Further, it aims at creating a pool of organized, trained and motivated youth with leadership qualities in all walks of life, 
+    who will serve the Nation regardless of which career they choose. </b></p>
+  <button > <a href="./learn.html"  class="hovereffect"> read more </a></button></div></section>
+<!--here starts gallery -->
+<section class="home-gallery">
+   <div class="glry"> 
+     <div class="display"> 
+       <img src="./ncc images/img1.jpg"  id="imgdisplay" alt="">
+        <span><a href="./gallery.html" class="hovereffect"><button id="view-all" > <p>view all </p> </button></a></span>
+     </div>
+
+    <div class="show">
+      <div class="showphoto">
+        <img src="./ncc images/img1.jpg" alt="1" onclick="change(this);">
+      </div>
+    <div class="showphoto">
+      <img src="./ncc images/img2.jpg" alt="2" onclick="change(this);">
   </div>
+    <div class="showphoto"
+    ><img src="./ncc images/img3.jpg" alt="3" onclick="change(this);">
+  </div>
+    <div class="showphoto">
+      <img src="./ncc images/img4.jpg" alt="4" onclick="change(this);">
+    </div>
+  </div>
+
+   </div><br>
+   
+
 </section>
+
+
 
 <!-- here is the footer--> 
-  <footer class="foot temp"> this is footer</footer>
+<footer class="foot temp">
+  <H1 style="font-weight: normal; font-size: medium;"> &copy <a href="https://www.nitap.ac.in/#" style="text-decoration: none; color:white ;">NATIONAL INSTITUTE OF TECHNOLOGY </a> ,JOTE . ARUNCHAL PRADESH</H1>
+  <div class="sociallink" >
+  <div class="social"> <a href="https://youtu.be/dQw4w9WgXcQ"  class="fa fa-facebook"></a></div>
+  <div class="social"> <a href="https://youtu.be/dQw4w9WgXcQ"  class="fa fa-youtube"></a></div>
+  <div class="social"> <a href="https://youtu.be/dQw4w9WgXcQ" class="fa fa-instagram"></a></div>
+  <div class="social"><a href="https://youtu.be/dQw4w9WgXcQ" class="fa fa-twitter"></a></div>
+  </div>
+</footer>
 
 </body>
-<script src="my.js"> </script>
+<script src="my.js"> 
+
+  </script>
 </html>
