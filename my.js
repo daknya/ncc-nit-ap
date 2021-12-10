@@ -11,6 +11,7 @@ const navSlide = () => {
      nav.classList.toggle('nav-active');
 
      burger.classList.toggle('toggle');
+     document.body.classList.toggle('bod');
    });
 
    
