@@ -9,7 +9,12 @@
   <link rel="stylesheet" href="style.css">
   <style>
 
-
+@media  screen and (max-width:700px) {
+  .link{
+    top:8vh;
+  }
+  
+}
   </style>
 </head>
 
@@ -32,7 +37,7 @@
 
 <!-- this the navigation bar--> 
 
-<nav class="nav">
+<nav class="nav" id="jump">
   <div class="small-logo" id="smllogo"> <img src="./im-removebg-preview (1).png" alt="ncc-logo"></div>
   <ul class="link">
     <li><a class="tablink active" href="index.html"> home </a> </li>
@@ -42,10 +47,10 @@
   
   </ul>
  <div class="burger"> 
-    <div class="line1"></div> 
+  <a href="#jump"><div class="line1"></div> 
     <div class="line2"></div>
     <div class="line3"></div>
-   
+  </a>
  </div>
 </nav>
 
