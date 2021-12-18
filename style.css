@@ -67,7 +67,7 @@
  .sticky + .content {
    padding-top: 60px;
  }
-.nav ul{
+.link{
     display: flex;
 }
 .nav li{
@@ -131,33 +131,35 @@
     
    }
    .nav{
-      display: flex;
-      justify-content: space-evenly;
+     flex-direction: column;
+  height: auto;
       
+   }
+   .nav ul{
+      flex-direction: column;
+   }
+   .res{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border-bottom: 1px solid black;
    }
 
-   body{
-       overflow-x: hidden;
-      
-   }
-   .link{
-       position: fixed;
-       right: 0px;
-       height: 95vh;
-       top:12vh;
-       background-color:rgba(38,0,117, 0.9)  ;
-        
-       flex-direction: column;
-       align-items: center;
-        width:0;
+  body{
       overflow-x: hidden;
+  }
+   .link{
+       display: none;
+       
+      
+       align-items: center;
+        width:100%;
+       
         transition: 0.5s ease-in;
-       z-index: 1;
        padding: 30px;
    }
-   .link{
-      opacity: 0;display: none;
-   }
+
    .ncc{
       display: none;
    }
@@ -179,20 +181,20 @@
    
 }
    .nav-active{
-   width: 100%;
+    display: flex;
    opacity: 1;
   
    }
    .toggle .line1{
-       transform: rotate(45deg) translate(-5px,6px);
-       width: 30px;
+       transform: rotate(45deg) translate(5px,5px);
+       width: 25px;
      }
      .toggle .line2{
       opacity: 0;
      }
      .toggle .line3{
-       transform: rotate(-45deg) translate(-5px,-6px);
-      width: 30px;
+       transform: rotate(-45deg) translate(7px, -6px);
+      width: 25px;
        
      }
      .bsdk{
