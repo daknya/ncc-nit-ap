@@ -50,11 +50,13 @@
 .nav{
    position: relative;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   background-color: white;
    align-items: center;
-   background-color:rgb(229, 226, 226);
+  
    height: 8vh;
-   
+   width: 1000px;
+   margin: auto;
    width: 100%;
 }
 
@@ -102,9 +104,11 @@
    box-shadow: 1px 2px 3px;
    color:rgb(112, 107, 107);
    border-radius: 10px;
-   
-  }
   
+  }
+  .small-logo{
+   display: none;
+ }
   
 
 /*for responsive STYLING */
@@ -130,9 +134,13 @@
      display: block;
     
    }
+   .small-logo{
+      display: block;
+   }
    .nav{
      flex-direction: column;
   height: auto;
+  
       
    }
    .nav ul{
@@ -141,7 +149,7 @@
    .res{
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       width: 100%;
       border-bottom: 1px solid black;
    }
@@ -156,7 +164,7 @@
        align-items: center;
         width:100%;
        
-        transition: 0.5s ease-in;
+        transition: 3s ease-out;
        padding: 30px;
    }
 
@@ -427,19 +435,19 @@ img {
 }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
    #slideshow{
       overflow: hidden;
-      height: 300px;
-      width: 500px;
+      height: 200px;
+      width: 300px;
       margin: auto;
       border-radius: 6px;
    }
    
    .slides{
       float: left;
-      height: 300px;
-      width: 500px;
+      height: 200px;
+      width: 300px;
    
    }
    .slides img{
@@ -447,7 +455,7 @@ img {
       height: 100%;
    }
    .slide-wrapper{
-      width: calc(1000px*4);
+      width: calc(300px*4);
       animation: slide 20s ease infinite;
    }
    
@@ -457,13 +465,13 @@ img {
          margin-left: 0px;
      }
      40% {
-         margin-left: calc(-500px * 1);
+         margin-left: calc(-300px * 1);
      }
      60% {
-         margin-left: calc(-500px * 2);
+         margin-left: calc(-300px * 2);
      }
      80% {
-         margin-left: calc(-500px * 3);
+         margin-left: calc(-300px * 3);
      }
    }
    }
