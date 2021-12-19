@@ -439,7 +439,7 @@ img {
    #slideshow{
       overflow: hidden;
       height: 200px;
-      width: 300px;
+      width: 320px;
       margin: auto;
       border-radius: 6px;
    }
@@ -447,7 +447,7 @@ img {
    .slides{
       float: left;
       height: 200px;
-      width: 300px;
+      width: 320px;
    
    }
    .slides img{
@@ -455,7 +455,7 @@ img {
       height: 100%;
    }
    .slide-wrapper{
-      width: calc(300px*4);
+      width: calc(320px*4);
       animation: slide 20s ease infinite;
    }
    
@@ -465,13 +465,13 @@ img {
          margin-left: 0px;
      }
      40% {
-         margin-left: calc(-300px * 1);
+         margin-left: calc(-320px * 1);
      }
      60% {
-         margin-left: calc(-300px * 2);
+         margin-left: calc(-320px * 2);
      }
      80% {
-         margin-left: calc(-300px * 3);
+         margin-left: calc(-320px * 3);
      }
    }
    }
